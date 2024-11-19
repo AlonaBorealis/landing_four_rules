@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+body {
+  min-width: 850px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  background-color: #eee;
+  background-image: url(https://habrastorage.org/getpro/habr/upload_files/bd4/c5e/f12/bd4c5ef1218c082fa7230986ea7f074c.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+  font-weight: 800;
+  font-size: 74px;
+  text-transform: uppercase;
+}
+
+.overlay {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(59, 18, 66, 0.88);
+}
+
+.content {
+  font-size: 0;
+  width: 770px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  width: 360px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding: 25px 25px 30px;
+  border: 1px solid black;
+  display: inline-block;
+  box-shadow: 4px 4px 0 #262626ab;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 31px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+
+}
+
+.card-image {
+  width: 310px;
+  height: 192px;
+  margin-bottom: 15px;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: #7C1F7C;
+  height: 200px;
+  display: flex;
+}
+
+.footer-author {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: auto;
+}
